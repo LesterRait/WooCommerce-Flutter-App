@@ -7,8 +7,6 @@ part 'order.g.dart';
 class Order extends ChangeNotifier {
   // final List<Billing> billing;
   final int id;
-  @JsonKey(name: 'product_id')
-  final int productId;
   final String number;
   @JsonKey(name: 'order_key')
   final String orderKey;
@@ -16,7 +14,6 @@ class Order extends ChangeNotifier {
   Order({
     // required this.billing,
     required this.id,
-    required this.productId,
     required this.number,
     required this.orderKey,
   });

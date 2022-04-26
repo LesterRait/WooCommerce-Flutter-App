@@ -3,8 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:ecommerce_app/ApiClient/api_client.dart';
 import 'package:ecommerce_app/provider/orders.dart';
 import 'package:ecommerce_app/screen/payments.dart';
-import 'package:ecommerce_app/widget/app_drawer.dart';
-import 'package:ecommerce_app/widget/order_item.dart';
+import 'package:ecommerce_app/widget/widget.dart';
 
 class OrderScreen extends StatelessWidget {
   final apiClient = ApiClient();

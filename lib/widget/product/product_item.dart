@@ -60,7 +60,7 @@ class ProductItem extends StatelessWidget {
                     product.id.toString(),
                     double.parse(product.price),
                     product.name,
-                    product.productId,
+                    product.id,
                   );
                   ScaffoldMessenger.of(context).hideCurrentSnackBar();
                   ScaffoldMessenger.of(context).showSnackBar(

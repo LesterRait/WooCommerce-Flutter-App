@@ -3,12 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ecommerce_app/ApiClient/api_client.dart';
-import 'package:ecommerce_app/provider/cart.dart';
-import 'package:ecommerce_app/provider/products.dart';
+import 'package:ecommerce_app/provider/provider.dart';
 import 'package:ecommerce_app/screen/cart.dart';
-import 'package:ecommerce_app/widget/app_drawer.dart';
-import 'package:ecommerce_app/widget/badge.dart';
-import 'package:ecommerce_app/widget/product/product_grid.dart';
+import 'package:ecommerce_app/widget/widget.dart';
 
 enum FilterOptions {
   // ignore: constant_identifier_names

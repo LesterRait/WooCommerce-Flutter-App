@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ecommerce_app/provider/cart.dart';
-import 'package:ecommerce_app/provider/orders.dart';
-import 'package:ecommerce_app/provider/products.dart';
-import 'package:ecommerce_app/provider/wooOrders.dart';
-import 'package:ecommerce_app/screen/cart.dart';
-import 'package:ecommerce_app/screen/product/product_detail_screen.dart';
-import 'package:ecommerce_app/screen/product/product_overview_screen.dart';
+import 'package:ecommerce_app/provider/provider.dart';
+import 'package:ecommerce_app/screen/screen.dart';
 
 void main() {
   runApp(const MyApp());
